@@ -12,5 +12,8 @@ Package versions used in creating these examples:
   <li><b>eccodes</b>: 2.23.0</li>
   <li><b>cfgrib</b>: 0.9.8.5 (should also work with 0.9.9.1 but probably not with 0.9.9.0 due to a cfgrib bug)</li>
   <li><b>fsspec</b>: 2021.9.0 (used to access public AWS S3 data)</li>
+  <li><b>pandas</b>: 1.3.3</li>
+  <li><b>numpy</b>: 1.19.5</li>
+  <li><b>matplotlib</b>: 3.4.3</li>
   <li><b>Python</b>: 3.7.10 (should also work with newer versions)</li>
 </ul>
