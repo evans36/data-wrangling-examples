@@ -1,7 +1,8 @@
 # data-wrangling-examples
-Example notebooks demonstrating how to use Python packages to wrangle common atmospheric datasets. At this point, two notebooks are available: 
+Example notebooks demonstrating how to use Python packages to wrangle common atmospheric datasets. Three notebooks are available: 
 
 <ul>
+  <li><i>Faculty Alma Maters</i>, which takes data from <a href="https://www.nature.com/articles/s41586-022-05222-x">Wapman et al. (2022, <i>Nature</i>)</a> to identify counts of tenured and tenure-track faculty by PhD alma mater in the Atmospheric Sciences and Meteorology at PhD-granting institutions.</li>
   <li><i>Working with GRIB2 Data</i>, which demonstrates how to use xarray (with the eccodes/cfgrib backend) to read in and perform basic operations with GRIB2-formatted data. This example also demonstrates how to access data from the Amazon Web Services s3 Global Ensemble Forecast System datastore; the process of reading in GRIB2 data is simpler if you are working with local data and/or just a single file.</li>
   <li><i>Text Data with pandas, numpy, and matplotlib</i>, which demonstrates how pandas can be used to read in a locally stored .csv dataset, from which numpy and matplotlib can be used to calculate and plot desired quantities.</li>
 </ul>
